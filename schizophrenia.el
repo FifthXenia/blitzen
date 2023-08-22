@@ -44,10 +44,4 @@
   (start-process "espeak" nil "espeak" text)
   )
 
-
-(defun schizephrenia(&optional arg)
-  "dummy"
-  )
-
-
 (provide 'schizophrenia)
