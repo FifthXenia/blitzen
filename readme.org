@@ -4,3 +4,10 @@
 Auditory time blocking.
 
 Just listen to the voices in your head, they'll tell you what you need to do.
+
+* Installation instructions via [[https://github.com/radian-software/straight.el][straight.el]]
+
+#+begin_src emacs-lisp
+(use-package schizophrenia
+  :straight (:host github :repo "FifthXenia/schizophrenia"))
+#+end_src
