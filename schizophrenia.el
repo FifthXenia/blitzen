@@ -30,7 +30,7 @@
  (start-process "mplayer" nil "mplayer" 'schizophrenia-end-sound)
 )
 
-(defun ajahn-sacrifice-break-end-sound ()
+(defun schizophrenia-break-end-sound ()
   (interactive)
  (start-process "mplayer" nil "mplayer" 'schizophrenia-break-end-sound)
 )
