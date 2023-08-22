@@ -13,4 +13,4 @@ Just listen to the voices in your head, as they'll tell you what you need to do.
 #+end_src
 
 ** Dependencies
-- To make use of ~schizophrenia-say~, and have the timeblock you are entering spoken to you, please have ~espeak~ installed on your system.
+- To make use of ~schizophrenia-say~, and have the timeblock you are entering spoken to you, you'll need ~espeak~ installed on your system.
