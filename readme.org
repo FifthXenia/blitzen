@@ -13,4 +13,4 @@ Just listen to the voices in your head, as they'll tell you what you need to do.
 #+end_src
 
 ** Dependencies
--  ~espeak~: To have the timeblock you are entering spoken to you (via ~schizophrenia-say()~).
+-  ~espeak~: To have the timeblock you are entering spoken to you via ~schizophrenia-say()~.
