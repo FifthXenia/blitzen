@@ -1,5 +1,5 @@
 #+ATTR_ORG: :width 600
-[[file:.images/2023-08-21_19-49-18_screenshot.png]]
+[[file:.images/hearing-voices-1488519756.png]]
 
 Audio-based just-in-time time blocking.
 Just listen to the voices in your head, they'll tell you what you need to do..
