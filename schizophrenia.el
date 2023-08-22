@@ -1,22 +1,22 @@
 (defcustom schizophrenia-start-sound (when load-file-name
                                       (concat (file-name-directory load-file-name)
                                               "sounds/org.gnome.Solanum-beep.ogg"))
-  "The path to a sound file that´s to be played when a pomodoro is started."
-  :group 'org-pomodoro
+  "The path to a sound file that´s to be played when a timeblock has started."
+  :group 'schizophrenia
   :type 'file)
 
 (defcustom schizophrenia-end-sound (when load-file-name
                                       (concat (file-name-directory load-file-name)
                                               "sounds/org.gnome.Solanum-chime.ogg"))
-  "The path to a sound file that´s to be played when a pomodoro is started."
-  :group 'org-pomodoro
+  "The path to a sound file that´s to be played when a timeblock has ended."
+  :group 'schizophrenia
   :type 'file)
 
 (defcustom schizophrenia-break-end-sound (when load-file-name
                                       (concat (file-name-directory load-file-name)
                                               "sounds/coin-collect-game-start-pixabay.mp3"))
-  "The path to a sound file that´s to be played when a pomodoro is started."
-  :group 'org-pomodoro
+  "The path to a sound file that´s to be played when a break has ended."
+  :group 'schizophrenia
   :type 'file)
 
 (defun schizophrenia-start-sound ()
