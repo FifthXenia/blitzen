@@ -1,6 +1,6 @@
 #+ATTR_ORG: :width 600
 [[file:.images/hearing-voices-1488519756.png]]
 
-Auditory just-in-time time blocking.
+Auditory time blocking.
 
 Just listen to the voices in your head, they'll tell you what you need to do.
