@@ -12,5 +12,5 @@ Just listen to the voices in your head, they'll tell you what you need to do.
   :straight (:host github :repo "FifthXenia/schizophrenia"))
 #+end_src
 
-* Deps
+** Dependencies
 - To make use of ~schizophrenia-say~, have ~espeak~ installed on your system.
