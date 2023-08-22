@@ -43,3 +43,6 @@
   (interactive)
   (start-process "espeak" nil "espeak" text)
 )
+
+
+(provide 'schizophrenia)
