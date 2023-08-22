@@ -11,3 +11,6 @@ Just listen to the voices in your head, they'll tell you what you need to do.
 (use-package schizophrenia
   :straight (:host github :repo "FifthXenia/schizophrenia"))
 #+end_src
+
+* Deps
+- To make use of ~schizophrenia-say~, have ~espeak~ installed on your system.
