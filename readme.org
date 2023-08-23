@@ -17,7 +17,7 @@ Just listen to the voices that appear in your head, as they'll tell you what you
 #+end_src
 - For each timeblock entry, you'll hear a bell chime, and your timeblock's name spoken, at the given time you inputted for it.
 
-** Example Audio:
+*** Example Audio:
 
 https://github.com/FifthXenia/schizophrenia/assets/7407672/cb46ab3e-2e69-40d8-b4ed-31fff03717af
 
