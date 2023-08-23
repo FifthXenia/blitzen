@@ -15,7 +15,7 @@ Just listen to the voices in your head, as they'll tell you what you need to do.
 (schizophrenia-timeblock "do your work. you know, the thing." "08:00")
 (schizophrenia-timeblock "go to sleep, this is espeak speaking" "20:00")
 #+end_src
-- You'll hear a bell chime, and your timeblock's name spoken upon the given time inputted for it, for each entry.
+- For timeblock entry, you'll hear a bell chime, and your timeblock's name spoken, at the given time you inputted for it.
 
 ** Installation instructions via [[https://github.com/radian-software/straight.el][straight.el]]
 
