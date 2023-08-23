@@ -6,11 +6,13 @@ Auditory time blocking.
 Just listen to the voices in your head, as they'll tell you what you need to do.
 
 ** How to use:
+- Timeblock your schedule out, such as:
 #+begin_src emacs-lisp :tangle yes
 ;; schizophrenia-timeblock (timeblockName time)
 (schizophrenia-timeblock "wake up, this is espeak speaking" "21:20")
 (schizophrenia-timeblock "go to sleep, this is espeak speaking" "21:21")
 #+end_src
+- You'll hear a bell chime, and your timeblock name spoken at the given time inputted.
 
 ** Installation instructions via [[https://github.com/radian-software/straight.el][straight.el]]
 
