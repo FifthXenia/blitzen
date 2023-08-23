@@ -23,6 +23,6 @@ Just listen to the voices that appear in your head, as they'll tell you what you
 (use-package schizophrenia
   :straight (:host github :repo "FifthXenia/schizophrenia"))
 #+end_src
-- If you're not using straight, you will most likely have to manually set the path for the ~schizophrenia-start-sound~, as it's currently set to a straight-dependent path: ~../../repos/schizophrenia/sounds/org.gnome.Solanum-beep.ogg
+- If you're not using straight, you will most likely have to manually set the path for the ~schizophrenia-start-sound~, as it's currently set to a straight-dependent path: ~../../repos/schizophrenia/sounds/org.gnome.Solanum-beep.ogg~
 ** Dependencies
 -  ~espeak~: To have the timeblock-you-are-entering's task name spoken to you.
