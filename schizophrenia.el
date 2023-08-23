@@ -19,22 +19,24 @@
   :group 'schizophrenia
   :type 'file)
 
-(defun schizophrenia-start-sound ()
+(defun schizophrenia-play-start-sound ()
   (interactive)
   ;; (path doesn't work (it doesn't play) with ~, it needs /home/greghab)
  (start-process "mplayer" nil "mplayer" 'schizophrenia-start-sound)
 )
 
-(defun schizophrenia-end-sound ()
+(defun schizophrenia-play-end-sound ()
   (interactive)
  (start-process "mplayer" nil "mplayer" 'schizophrenia-end-sound)
 )
 
-(defun schizophrenia-break-end-sound ()
+(defun schizophrenia-play-break-end-sound ()
   (interactive)
  (start-process "mplayer" nil "mplayer" 'schizophrenia-break-end-sound)
 )
 
+;; https://emacs.stackexchange.com/questions/6029/is-it-possible-to-execute-a-function-or-command-at-a-specific-time
+;; (run-at-time "20:30" nil #'schizophrenia-start-sound)
 ;; https://emacs.stackexchange.com/questions/63987/timer-runs-immediately-then-periodically
 ;; (run-at-time "25 min" nil #'schizophrenia-start-sound)
 
@@ -42,6 +44,13 @@
 (defun schizophrenia-say (text)
   (interactive)
   (start-process "espeak" nil "espeak" text)
+  )
+
+
+(defun schizophrenia-voice (taskName time)
+  (interactive)
+  (run-at-time time nil #'schizophrenia-start-sound)
+  (run-at-time time nil #'schizophrenia-say(taskName))
   )
 
 (provide 'schizophrenia)
