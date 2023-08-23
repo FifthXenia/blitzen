@@ -52,6 +52,7 @@
   (if (string>
        time (format-time-string "%H:%M" (current-time))
        )
+      ;; true
       (progn
         (run-at-time time nil 'schizophrenia-play-start-sound)
         ;; https://stackoverflow.com/questions/53734416/run-function-with-arguments-inside-of-a-standard-hook
