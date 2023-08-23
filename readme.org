@@ -10,7 +10,8 @@ Just listen to the voices in your head, as they'll tell you what you need to do.
 #+begin_src emacs-lisp :tangle yes
 ;; schizophrenia-timeblock (timeblockName time)
 (schizophrenia-timeblock "wake up, this is espeak speaking" "21:20")
-(schizophrenia-timeblock "go to sleep, this is espeak speaking" "21:21")
+(schizophrenia-timeblock "do your work" "21:21")
+(schizophrenia-timeblock "go to sleep, this is espeak speaking" "21:22")
 #+end_src
 - You'll hear a bell chime, and your timeblock's name spoken upon the given time inputted for it.
 
