@@ -6,7 +6,7 @@ Auditory time blocking.
 Just listen to the voices that appear in your head, as they'll tell you what you need to do.
 
 ** How to use:
-- Timeblock your schedule out, such as:
+- Timeblock your schedule, such as:
 #+begin_src emacs-lisp :tangle yes
 ;; schizophrenia-timeblock (timeblockName time)
 (schizophrenia-timeblock "wake up, this is espeak speaking" "04:00")
