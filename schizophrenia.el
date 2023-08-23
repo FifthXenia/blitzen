@@ -1,3 +1,4 @@
+;; path is valid for straight.el
 (defcustom schizophrenia-start-sound (when load-file-name
                                       (concat (file-name-directory load-file-name)
                                               "../../repos/schizophrenia/sounds/org.gnome.Solanum-beep.ogg"))
@@ -21,18 +22,17 @@
 
 (defun schizophrenia-play-start-sound ()
   (interactive)
-  ;; (path doesn't work (it doesn't play) with ~, it needs /home/greghab)
- (start-process "mplayer" nil "mplayer" schizophrenia-start-sound)
+  (start-process "mplayer" nil "mplayer" schizophrenia-start-sound)
 )
 
 (defun schizophrenia-play-end-sound ()
   (interactive)
- (start-process "mplayer" nil "mplayer" schizophrenia-end-sound)
+  (start-process "mplayer" nil "mplayer" schizophrenia-end-sound)
 )
 
 (defun schizophrenia-play-break-end-sound ()
   (interactive)
- (start-process "mplayer" nil "mplayer" schizophrenia-break-end-sound)
+  (start-process "mplayer" nil "mplayer" schizophrenia-break-end-sound)
 )
 
 ;; https://emacs.stackexchange.com/questions/6029/is-it-possible-to-execute-a-function-or-command-at-a-specific-time
@@ -46,11 +46,22 @@
   (start-process "espeak" nil "espeak" text)
   )
 
-
-(defun schizophrenia-voice (taskName time)
+(defun schizophrenia-timeblock (timeblockName time)
   (interactive)
-  (run-at-time time nil #'schizophrenia-play-start-sound)
-  (run-at-time time nil #'schizophrenia-say(taskName))
+  ;; if time is in future (valid), play sounds and espeak timeblock, otherwise ignore
+  (if (string>
+       time (format-time-string "%H:%M" (current-time))
+                   )
+      ( progn
+        (run-at-time time nil 'schizophrenia-play-start-sound)
+        ;; https://stackoverflow.com/questions/53734416/run-function-with-arguments-inside-of-a-standard-hook
+       (run-at-time time nil (apply-partially 'schizophrenia-say timeblockName))
+       )
+  "false"
+    )
   )
+
+
+
 
 (provide 'schizophrenia)
