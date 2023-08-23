@@ -51,8 +51,8 @@
   ;; if time is in future (valid), play sounds and espeak timeblock, otherwise ignore
   (if (string>
        time (format-time-string "%H:%M" (current-time))
-                   )
-      ( progn
+       )
+      (progn
         (run-at-time time nil 'schizophrenia-play-start-sound)
         ;; https://stackoverflow.com/questions/53734416/run-function-with-arguments-inside-of-a-standard-hook
        (run-at-time time nil (apply-partially 'schizophrenia-say timeblockName))
