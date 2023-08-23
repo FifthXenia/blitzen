@@ -5,7 +5,7 @@ Auditory time blocking.
 
 Just listen to the voices in your head, as they'll tell you what you need to do.
 
-** Example usecase:
+** How to use (~schizophrenia-timeblock (timeblockName time)~):
 #+begin_src emacs-lisp :tangle yes
 (schizophrenia-timeblock "wake up, this is espeak speaking" "21:20")
 (schizophrenia-timeblock "go to sleep, this is espeak speaking" "21:21")
