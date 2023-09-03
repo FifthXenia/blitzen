@@ -11,11 +11,11 @@ Just listen to the voices that appear in your head, as they'll tell you what you
 - Timeblock your schedule, such as:
 #+begin_src emacs-lisp :tangle yes
 ;; schizophrenia-timeblock (timeblockName time)
-(schizophrenia-timeblock "wake up, this is espeak speaking" "04:00")
-(schizophrenia-timeblock "do your work. you know, the thing. that thing." "05:00")
-(schizophrenia-timeblock "Go jog." "07:00")
-(schizophrenia-timeblock "do your work. you know, the thing. that thing." "08:00")
-(schizophrenia-timeblock "go to sleep, this is espeak speaking" "20:00")
+(shepherd-timeblock "wake up, this is espeak speaking" "04:00")
+(shepherd-timeblock "do your work. you know, the thing. that thing." "05:00")
+(shepherd-timeblock "Go jog." "07:00")
+(shepherd-timeblock "do your work. you know, the thing. that thing." "08:00")
+(shepherd-timeblock "go to sleep, this is espeak speaking" "20:00")
 #+end_src
 - For each timeblock entry, you'll hear a bell chime, and your timeblock's name spoken, at the given time you inputted for it.
   - (If the time entered is less than the current time, the timeblock will be ignored.)
@@ -27,10 +27,10 @@ https://github.com/FifthXenia/schizophrenia/assets/7407672/cb46ab3e-2e69-40d8-b4
 ** Installation instructions via [[https://github.com/radian-software/straight.el][straight.el]]
 
 #+begin_src emacs-lisp
-(use-package schizophrenia
-  :straight (:host github :repo "FifthXenia/schizophrenia"))
+(use-package shepherd
+  :straight (:host github :repo "FifthXenia/shepherd"))
 #+end_src
-- If you're not using straight, you will most likely have to manually set the path for the ~schizophrenia-start-sound~, as it's currently set to a straight-dependent path: ~../../repos/schizophrenia/sounds/org.gnome.Solanum-beep.ogg~
+- If you're not using straight, you will most likely have to manually set the path for the ~shepherd-start-sound~, as it's currently set to a straight-dependent path: ~../../repos/schizophrenia/sounds/org.gnome.Solanum-beep.ogg~
 ** Dependencies
 - ~espeak~: To have the timeblock-you-are-entering's task name spoken to you.
 - ~mplayer~: For playing the chime/bell.
