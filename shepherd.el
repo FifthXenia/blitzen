@@ -46,7 +46,7 @@
   (start-process "espeak" nil "espeak" text)
   )
 
-(defun shepherd-augment-flock (timeblockName time)
+(defun shepherd-flock (timeblockName time)
   (interactive)
   ;; if time is in future (valid), play sounds and espeak timeblock, otherwise ignore
   (if (string>
