@@ -11,7 +11,7 @@ Pay heed to the shepherd, they know the way forward.
 ** How to use:
 - Timeblock your schedule, such as:
 #+begin_src emacs-lisp :tangle yes
-;; schizophrenia-timeblock (timeblockName time)
+;; shepherd-augment-flock (timeblockName time)
 (shepherd-augment-flock "wake up, this is espeak speaking" "04:00")
 (shepherd-augment-flock "do your work. you know, the thing. that thing." "05:00")
 (shepherd-augment-flock "Go jog." "07:00")
