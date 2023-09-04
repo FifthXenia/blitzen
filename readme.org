@@ -12,11 +12,11 @@ Pay heed to the shepherd, they know the way forward.
 - Timeblock your schedule, such as:
 #+begin_src emacs-lisp :tangle yes
 ;; schizophrenia-timeblock (timeblockName time)
-(shepherd-timeblock "wake up, this is espeak speaking" "04:00")
-(shepherd-timeblock "do your work. you know, the thing. that thing." "05:00")
-(shepherd-timeblock "Go jog." "07:00")
-(shepherd-timeblock "do your work. you know, the thing. that thing." "08:00")
-(shepherd-timeblock "go to sleep, this is espeak speaking" "20:00")
+(shepherd-add-to-flock "wake up, this is espeak speaking" "04:00")
+(shepherd-add-to-flock "do your work. you know, the thing. that thing." "05:00")
+(shepherd-add-to-flock "Go jog." "07:00")
+(shepherd-add-to-flock "do your work. you know, the thing. that thing." "08:00")
+(shepherd-add-to-flock "go to sleep, this is espeak speaking" "20:00")
 #+end_src
 - For each timeblock entry, you'll hear a bell chime, and your timeblock's name spoken, at the given time you inputted for it.
   - (If the time entered is less than the current time, the timeblock will be ignored.)
