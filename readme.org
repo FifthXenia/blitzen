@@ -38,5 +38,5 @@ https://github.com/FifthXenia/schizophrenia/assets/7407672/cb46ab3e-2e69-40d8-b4
 - ~mplayer~: For playing the chime/bell.
 ** To Investigate
 *** https://github.com/akirak/org-memento
-- This may have a overlap in ideas to what I'm doing here.
+- This may have a overlap in ideas to what I'm doing here (outside of the obvious https://github.com/ichernyshovvv/org-timeblock).
 
