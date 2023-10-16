@@ -42,8 +42,8 @@ https://github.com/FifthXenia/schizophrenia/assets/7407672/cb46ab3e-2e69-40d8-b4
 
 
 * TO-DO
-- 1: Implement interval tracking
-- 2: Get timeblocks off of org-agenda for the day, stop typing that in manually, it's ridiculous.
+- 1: Get timeblocks off of org-agenda for the day, stop typing that in manually, it's ridiculous.
+- 2: Implement interval tracking
 - 3: Allow rescheduling of tasks/interval/agenda via a hydra menu.
 - 4: Publish actual schedule interval. Ability to show diff.
 - 5: Stats on tasks (time to complete, streak, etc).
