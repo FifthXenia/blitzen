@@ -40,3 +40,12 @@ https://github.com/FifthXenia/schizophrenia/assets/7407672/cb46ab3e-2e69-40d8-b4
 *** https://github.com/akirak/org-memento
 - This appears to have some overlap in the ideas that I'm doing here (outside of the obvious https://github.com/ichernyshovvv/org-timeblock).
 
+
+* TODO
+** 1: Implement interval tracking
+
+** 2: Get timeblocks off of org-agenda for the day
+
+** 3: Allow rescheduling via a hydra menu.
+
+** 4: Publish actual schedule interval.
