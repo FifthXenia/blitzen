@@ -1,5 +1,5 @@
 #+ATTR_ORG: :width 600
-[[file:.images/blitzen-2-jpegoptim-150k.jpg]]
+[[file:.images/blitzen-3-jpegoptim-150k.jpg]]
 
 https://github.com/FifthXenia/schizophrenia/assets/7407672/f3dc0114-1460-41ee-9c6c-bec8f95587e7
 
