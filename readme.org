@@ -4,7 +4,7 @@ https://github.com/FifthXenia/schizophrenia/assets/7407672/f3dc0114-1460-41ee-9c
 Auditory time blocking [[https://english.stackexchange.com/questions/39266/what-is-the-difference-between-daemon-and-demon-in-a-religious-context][daemon]].
 - (Will later be augmented to support Interval Tracking).
 
-Pay heed to the shepherd, for they know the lay of the land.
+Command your panzers peacefully, Kommandeur.
 
 ** How to use:
 - Timeblock your schedule, such as:
